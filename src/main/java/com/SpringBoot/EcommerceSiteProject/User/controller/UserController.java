@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/test")
+    @GetMapping("/test1")
     public String testApi(){
         return "TestApi works.";
     }
